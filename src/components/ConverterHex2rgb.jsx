@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Transformer from "./Transformer";
+import Transformer from '../utilities/Transformer';
 
 function ConverterHex2rgb() {
     const [inputHex, setInputHex] = useState('#34495e');
